@@ -1,0 +1,15 @@
+
+
+@GDEF_Simple = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a 
+	\ampersand \at \b \backslash \c \colon \comma \d \e \eight \ellipsis \emdash \endash 
+	\exclam \f \five \four \g \h \hyphen \i \j \k \l \m \n \nine \o \one \p \parenleft 
+	\parenright \period \q \question \quotedblleft \quotedblright \quoteleft 
+	\quoteright \r \s \semicolon \seven \six \slash \space \t \three \two \u \underscore 
+	\v \w \x \y \z \zero \bracketleft \bracketright \braceleft \bar \braceright ];
+@GDEF_Mark = [\acute \circumflex \dieresis \grave ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+
